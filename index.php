@@ -1,6 +1,12 @@
 <?php
 
-$baglanti = new MongoDB\Driver\Manager('mongodb://localhost:27017');
+
+echo "Test";
+
+
+
+
+/* $baglanti = new MongoDB\Driver\Manager('mongodb://localhost:27017');
 
 
 
@@ -19,6 +25,6 @@ $veri = new MongoDB\Driver\BulkWrite();
 $veri->insert($_GET);
 
 $sonuc = $baglanti->executeBulkWrite('deneme.v1', $veri);
-var_dump($sonuc);
+var_dump($sonuc); */
 
 ?>
